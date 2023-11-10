@@ -1,0 +1,404 @@
+{"chat-list":{"group-list": 
+	[
+		{	"uuid": "group_1",
+			"my_candidates":{"is_show": false},
+			"my_hive":{"is_show": false},
+			"my_applications":{"is_show": true},
+			"agents":{"is_show": false},
+			"employers":{"is_show": false},
+			"corecruiting":{"is_show": false},
+			"my_invitations_candidate":{"is_show": false},
+			"my_invitations_employer":{"is_show": false},
+			"admin":{"is_show": false}
+		},
+		{	"uuid": "group_2",
+			"my_candidates":{"is_show": false},
+			"my_hive":{"is_show": false},
+			"my_applications":{"is_show": false},
+			"agents":{"is_show": false},
+			"employers":{"is_show": false},
+			"corecruiting":{"is_show": false},
+			"my_invitations_candidate":{"is_show": true},
+			"my_invitations_employer":{"is_show": false},
+			"admin":{"is_show": false}
+		}
+	],
+"room_list": 
+	[
+		{	"uuid": "room_1",
+			"message_ids": ["message_1", "message_2", "message_3"], 
+			"contact_fields":{ 
+				"my_applications":{ 
+					"cover": "icon-Namemedicine",
+					"title": "Medic to hospital",
+					"country_iso": "PL",
+					"country": "Poland",
+					"city": "Warsaw",
+					"employer": "Gremi personal sp. z o.o.",
+					"step_current": "meet"
+				}
+			},
+			"message":{ 
+				"date": "11 DEC 23", 
+				"count_new": "15",
+				"is_notifications_off": true 
+			},
+			"messages":{
+				"apiUrl": "cabinet/chat/message/show/room_1" 
+			}
+		},
+		{	"uuid": "room_2",
+			"message_ids": ["message_4", "message_5", "message_6"], 
+			"contact_fields":{ 
+				"my_applications":{ 
+					"cover": "icon-Namewoodworking",
+					"title": "Builder",
+					"country_iso": "CZ",
+					"country": "Czech",
+					"city": "Prague",
+					"employer": "Worklift SRA",
+					"step_current": "approved"
+				}
+			},
+			"message":{ 
+				"date": "255 NOV 23", 
+				"count_new": "3", 
+				"is_notifications_off": false 
+			},
+			"messages":{
+				"apiUrl": "cabinet/chat/message/show/room_2" 
+			}
+		},
+		{	"uuid": "room_3",
+			"message_ids": ["message_7", "message_8", "message_9"], 
+			"contact_fields":{
+				"my_invitations_candidate":{ 
+					"cover": "icon-Namerating",
+					"title": "Dentist",
+					"country_iso": "DE",
+					"country": "Germany",
+					"city": "Berlin",
+					"employer": "Remura LTD"
+				}
+			},
+			"message":{ 
+				"date": "28 DEC 23", 
+				"count_new": "0", 
+				"is_notifications_off": false 
+			},
+			"messages":{
+				"apiUrl": "cabinet/chat/message/show/room_3" 
+			}
+		},
+		{	"uuid": "room_4",
+			"message_ids": ["message_10", "message_11", "message_12", "message_13", "message_14"], 
+			"contact_fields":{ 
+				"my_applications":{ 
+					"cover": "icon-Namenot_qualified",
+					"title": "Tractor driver",
+					"country_iso": "DE",
+					"country": "Germany",
+					"city": "Berlin",
+					"employer": "DigiBee work",
+					"step_current": "ticket"
+				}
+			},
+			"message":{ 
+				"date": "27 NOV 23", 
+				"count_new": "0", 
+				"is_notifications_off": false 
+			},
+			"messages":{
+				"apiUrl": "cabinet/chat/message/show/room_4" 
+			}
+		}	
+	]
+},
+"cabinet-chat-message-show-room_1":
+	[
+		{	"id": "message_1",
+			"user_id": "employer",
+			"avatar": "../../assets/images/user1.png", 
+			"created_at": "2023-12-17 14:33:22", 
+			"is_edited": true,
+			"text": "Good day! How are you getting on?",
+			"type": "1",
+			"layout_side": "0",
+			"author_role": "1"
+		},
+		{	"id": "message_21",
+			"user_id": "employer",
+			"avatar": "../../assets/images/user2.png", 
+			"created_at": "2023-12-17 14:33:28", 
+			"is_edited": false,
+			"text": "global.labels.chat_job_offer",
+			"type": "20",
+			"job_offer_send":{ 
+				"icon": "`path_to_photo`", 
+				"title": "job_1", 
+				"link": "site/job/job_uuid" 
+			},
+			"layout_side": "0",
+			"author_role": "1"
+		},
+		{	"id": "message_22",
+			"user_id": "employer",
+			"avatar": "../../assets/images/user3.png", 
+			"created_at": "2023-12-17 14:33:39", 
+			"is_edited": false,
+			"text": "Pay attention to my offer pls...",
+			"type": "21",
+			"job_offer_forward":{  
+				"author_name": "Gremi personal sp. z o.o.",
+				"forwarded_text": "global.labels.chat_job_offer",
+				"icon": "`path_to_photo`", 
+				"title": "job_1", 
+				"link": "site/job/job_uuid" 
+			},
+			"layout_side": "0",
+			"author_role": "1"
+		},
+		{	"id": "message_2",
+			"user_id": "candidate",
+			"avatar": "../../assets/images/user1.png", 
+			"created_at": "2023-12-17 14:35:22", 
+			"is_edited": false,
+			"is_sent": true,
+			"is_read": true,
+			"is_read_by_ids": ["participant_avatar_1", "participant_avatar_2", "participant_avatar_3"],
+			"text": "Ок. Якість фото влаштовує. Теперь чекаємо разом",
+			"type": "2",
+			"text_reply":{ 
+					"author_name": "Gremi personal sp. z o.o.",
+					"replied_text": "global.labels.chat_job_offer"
+			},
+			"layout_side": "1",
+			"author_role": "3"
+		},
+		{	"id": "message_3",
+			"user_id": "employer",
+			"avatar": "../../assets/images/user2.png", 
+			"created_at": "2023-12-18 10:13:20", 
+			"is_edited": false,
+			"text": "You`ve agreed.Let me know when your are ready to buy a ticket",
+			"type": "3",
+			"text_forward":{ 
+				"author_name": "Gremi personal sp. z o.o.",
+				"forwarded_text": "global.labels.chat_job_offer"
+			},
+			"layout_side": "0",
+			"author_role": "1" 
+		},
+		{	"id": "message_4",
+			"user_id": "employer",
+			"avatar": "../../assets/images/user2.png", 
+			"created_at": "2023-12-18 10:13:20", 
+			"is_edited": false,
+			"text": "Please listen to carefully",
+			"type": "4",
+			"layout_side": "0",
+			"author_role": "1"
+		},
+		{	"id": "message_20",
+			"user_id": "candidate",
+			"avatar": "../../assets/images/user3.png",
+			"created_at": "2023-12-19 07:13:20", 
+			"is_edited": true,
+			"is_sent": false,
+			"is_read": true,
+			"is_read_by_ids": ["participant_avatar_1", "participant_avatar_2", "participant_avatar_3"],
+			"text": "I have listened till the end of your speech. I`ll be back later.Wait some time please",
+			"type": "5",
+			"audio_reply":{ 
+				"author_name": "Gremi personal sp. z o.o.",
+				"replied_text": "Please listen to carefully"
+			},
+			"layout_side": "1",
+			"author_role": "3"
+		}
+	],
+"cabinet-chat-message-show-room_2":[
+	{	"id": "message_5",
+		"user_id": "coworker",
+		"avatar": "../../assets/images/user1.png", 
+		"created_at": "2023-11-10 07:13:20", 
+		"is_edited": true,
+		"text": "I have finished to edit your Invitation. Here is some information about which documents you have to provide us",
+		"type": "6",
+		"audio_forward":{ 
+			"author_name": "Gremi personal sp. z o.o."
+		},
+		"layout_side": "0",
+		"author_role": "2"
+	},
+	{	"id": "message_6",
+		"user_id": "candidate",
+		"avatar": "../../assets/images/user1.png", 
+		"created_at": "2023-11-10 07:15:20", 
+		"is_edited": true,
+		"is_sent": true,
+		"is_read": false,
+		"is_read_by_ids": ["participant_avatar_1", "participant_avatar_2", "participant_avatar_3"],
+		"text": "Check my photo please...",
+		"image_path":["../../assets/images/cat-big.jpg"],
+		"type": "7",
+		"layout_side": "1",
+		"author_role": "3"
+	},
+	{	"id": "message_7",
+		"user_id": "candidate",
+		"avatar": "../../assets/images/user3.png", 
+		"created_at": "2023-11-10 07:19:20", 
+		"is_edited": false,
+		"is_sent": true,
+		"is_read": true,
+		"is_read_by_ids": ["../../assets/images/cat-big.jpg", "../../assets/images/cat-big.jpg", "../../assets/images/cat-big.jpg"],
+		"text": "Here are some new pages. Check and let me know if is it ok",
+		"type": "8",
+		"image_path":["../../assets/images/cat-big.jpg"],
+		"image_reply":{ 
+			"author_name": "Zlata parasochka",
+			"replied_filename": "PANAS_NAzariy_bio.jpg"
+		},
+		"layout_side": "1",
+		"author_role": "3"
+	},
+	{	"id": "message_8",
+		"user_id": "coworker",
+		"avatar": "../../assets/images/user2.png", 
+		"created_at": "2023-11-19 07:13:20", 
+		"is_edited": false,
+		"text": "Here are signed sheets of your labor contract. Check it carefully and let me know if is it ok.",
+		"type": "9",
+		"image_path":["../../assets/images/cat-big.jpg","../../assets/images/cat-big.jpg"],
+		"image_forward":{  
+			"author_name": "Gremi personal sp. z o.o."
+		},
+		"layout_side": "0",
+		"author_role": "2"
+	}
+],
+"cabinet-chat-message-show-room_3":[
+	{	"id": "message_9",
+		"user_id": "agent",
+		"avatar": "../../assets/images/user2.png", 
+		"created_at": "2024-01-05 07:13:20", 
+		"is_edited": true,
+		"is_sent": true,
+		"is_read": true,
+		"is_read_by_ids": ["participant_avatar_1", "participant_avatar_2", "participant_avatar_3"],
+		"text": "I got these photos form your potential candidate. It seems they are not in good quality. What do you think?",
+		"image_path":["../../assets/images/cat-big.jpg", "../../assets/images/cat-big.jpg"],
+		"type": "10",
+		"layout_side": "1",
+		"author_role": "4"
+	},
+	{	"id": "message_10",
+		"user_id": "employer",
+		"avatar": "../../assets/images/user1.png", 
+		"created_at": "2024-01-05 07:16:20", 
+		"is_edited": true,
+		"text": "Yes. You should ask her to send new photos in good quality. There are 3 days left till the job offer will be closed. Hurry up, please.",
+		"type": "11",
+		"image_path":["../../assets/images/cat-big.jpg"],
+		"image_set_reply":{ 
+			"author_name": "DigiBee work",
+			"replied_foto_count": "4"
+		},
+		"layout_side": "0",
+		"author_role": "1" 
+	},
+	{	"id": "message_11",
+		"user_id": "agent",
+		"avatar": "../../assets/images/user1.png", 
+		"created_at": "2024-01-05 07:19:20", 
+		"is_edited": true,
+		"is_sent": false,
+		"is_read": false,
+		"is_read_by_ids": ["../../assets/images/cat-big.jpg", "../../assets/images/cat-big.jpg", "../../assets/images/cat-big.jpg"],
+		"text": "Finally, I got another photos. Check again, please.",
+		"type": "12",
+		"image_path":["../../assets/images/cat-big.jpg","../../assets/images/cat-big.jpg"],
+		"image_set_forward":{ 
+			"author_name": "Zlata parasochka"
+		},
+		"layout_side": "1",
+		"author_role": "4"
+	},
+	{	"id": "message_12",
+		"user_id": "recruiter",
+		"avatar": "../../assets/images/user3.png", 
+		"created_at": "2024-01-05 08:13:20", 
+		"is_edited": false,
+		"text": "Your candidate has been confirmed for the position. Check the route sheet for her with the required instructions.",
+		"type": "13",
+		"file_send":{ 
+			"filename": "Commercial offer.pdf",
+			"filesize": "890.1 KB"
+		},
+		"layout_side": "0",
+		"author_role": "5"
+	}
+],
+"cabinet-chat-message-show-room_4":[
+	{	"id": "message_13",
+		"user_id": "admin",
+		"avatar": "../../assets/images/user1.png", 
+		"created_at": "2024-02-09 07:13:20", 
+		"is_edited": true,
+		"text": "Ваша пропозиція була розглянута. Все гаразд. Вас звільнено.",
+		"type": "14",
+		
+		"file_reply":{ 
+			"author_name": "Gremi personal sp. z o.o.",
+			"replied_filename": "Commercial offer.pdf",
+			"replied_text": "Розгляньте нашу пропозицію"
+		},
+		"layout_side": "0",
+		"author_role": "0"
+		
+	},
+	{	"id": "message_14",
+		"user_id": "employer",
+		"avatar": "../../assets/images/user2.png", 
+		"created_at": "2024-02-09 07:14:20", 
+		"is_edited": false,
+		"is_sent": true,
+		"is_read": true,
+		"is_read_by_ids": ["participant_avatar_1", "participant_avatar_2", "participant_avatar_3"],
+		"text": "Як так!??? Що ви собі дозволяєте???Ось моя заява до поліції....Чекайте та тремтіть, шахраї *бані...",
+		"type": "15",
+		
+		"file_forward":{ 
+			"author_name": "Михаийло (юрист)",
+			"forwarded_filename": "Заява про злочин №15 від 09.02.2024.pdf",
+			"forwarded_filesize": "180.9 KB"
+		},
+		"layout_side": "1",	
+		"author_role": "1"
+		
+	},
+	{	"id": "message_15",
+		"user_id": "admin",
+		"avatar": "../../assets/images/user3.png", 
+		"created_at": "2023-02-09 07:17:20", 
+		"is_edited": true,
+		"type": "18",
+		"layout_side": "0",		
+		"author_role": "0" 			
+	},
+	{	"id": "message_16",
+		"user_id": "employer",
+		"avatar": "../../assets/images/user1.png", 
+		"created_at": "2023-02-09 07:19:20", 
+		"is_edited": false,
+		"is_sent": false,
+		"is_read": true,
+		"is_read_by_ids": ["participant_avatar_1", "participant_avatar_2"],
+		"type": "17",	
+		"layout_side": "0",	
+		"author_role": "1"
+			
+	}
+]
+}
