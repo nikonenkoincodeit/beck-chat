@@ -1,10 +1,12 @@
 const express = require("express");
+const path = require("path");
 const app = express();
 var cors = require("cors");
 const port = 3000;
 
 const data = require("./json/chat_list.json");
 
+app.use(express.static(path.join(__dirname, "assets")));
 // Middleware для обработки JSON
 app.use(express.json());
 app.use(cors());
