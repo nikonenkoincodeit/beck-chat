@@ -40,7 +40,8 @@
 			"message_ids": ["message_1", "message_2", "message_3"], 
 			"contact_fields":{ 
 				"my_applications":{ 
-					"cover": "icon-Namemedicine",
+					"cover": "icon",
+					"sourcePicture":"icon-Namemedicine",
 					"title": "Medic to hospital",
 					"country_iso": "PL",
 					"country": "Poland",
@@ -62,7 +63,8 @@
 			"message_ids": ["message_4", "message_5", "message_6"], 
 			"contact_fields":{ 
 				"my_applications":{ 
-					"cover": "icon-Namewoodworking",
+					"cover": "icon",
+					"sourcePicture":"icon-Namewoodworking", 
 					"title": "Builder",
 					"country_iso": "CZ",
 					"country": "Czech",
@@ -84,7 +86,8 @@
 			"message_ids": ["message_7", "message_8", "message_9"], 
 			"contact_fields":{
 				"my_invitations_candidate":{ 
-					"cover": "icon-Namerating",
+					"cover": "icon",
+					"sourcePicture":"icon-Namerating", 
 					"title": "Dentist",
 					"country_iso": "DE",
 					"country": "Germany",
@@ -105,7 +108,8 @@
 			"message_ids": ["message_10", "message_11", "message_12", "message_13", "message_14"], 
 			"contact_fields":{ 
 				"my_applications":{ 
-					"cover": "icon-Namenot_qualified",
+					"cover": "icon",
+					"sourcePicture":"icon-Namenot_qualified", 
 					"title": "Tractor driver",
 					"country_iso": "DE",
 					"country": "Germany",
