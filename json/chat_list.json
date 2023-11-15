@@ -129,6 +129,7 @@
 				"my_hive":{ 
 					"cover": "image",
 					"status_online": true,
+					 "sourcePicture":"https://back-chat-eof5.onrender.com/images/user1.png", 
 					"gender": "female",
 					"name": "Zlata Parasochka",
 					"country_iso": "IT",
