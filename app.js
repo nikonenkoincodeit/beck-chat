@@ -32,6 +32,11 @@ app.get("/room_4", (req, res) => {
   res.json(data["cabinet-chat-message-show-room_4"]);
 });
 
+app.get("/room_5", (req, res) => {
+  res.json(data["cabinet-chat-message-show-room_5"]);
+});
+
+
 // Слушаем порт
 app.listen(port, () => {
   console.log(`Сервер запущен на порту ${port}`);
