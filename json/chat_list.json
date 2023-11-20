@@ -308,7 +308,7 @@
 		"avatar": "https://back-chat-eof5.onrender.com/images/user2.png", 
 		"created_at": "2023-11-19 07:13:20", 
 		"is_edited": false,
-		"image_path":["../../assets/images/cat-big.jpg","../../assets/images/cat-big.jpg", "../../assets/images/cat-big.jpg"],
+		"image_path":["../../assets/images/cat-big.jpg","../../assets/images/cat-big.jpg", "../../assets/images/cat-big.jpg", "../../assets/images/cat-big.jpg", "../../assets/images/cat-big.jpg"],
 		"text": "Here are signed sheets of your labor contract. Check it carefully and let me know if is it ok.",
 		"type": "9",
 		"image_forward":{  
