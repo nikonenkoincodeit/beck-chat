@@ -278,7 +278,7 @@
 		"is_edited": true,
 		"is_sent": true,
 		"is_read": false,
-		"image_path":["../../assets/images/cat-big.jpg", "../../assets/images/cat-big.jpg"],
+		"image_path":["https://back-chat-eof5.onrender.com/images/cat-big.jpg", "https://back-chat-eof5.onrender.com/images/cat-big.jpg"],
 		"is_read_by_ids": ["participant_avatar_1", "participant_avatar_2", "participant_avatar_3"],
 		"text": "Check my photo please...",
 		"type": "7",
@@ -292,8 +292,8 @@
 		"is_edited": false,
 		"is_sent": true,
 		"is_read": true,
-		"image_path":["../../assets/images/cat-big.jpg"],
-		"is_read_by_ids": ["../../assets/images/cat-big.jpg", "../../assets/images/cat-big.jpg", "../../assets/images/cat-big.jpg"],
+		"image_path":["https://back-chat-eof5.onrender.com/images/cat-big.jpg"],
+		"is_read_by_ids": ["https://back-chat-eof5.onrender.com/images/cat-big.jpg", "https://back-chat-eof5.onrender.com/images/cat-big.jpg", "https://back-chat-eof5.onrender.com/images/cat-big.jpg"],
 		"text": "Here are some new pages. Check and let me know if is it ok",
 		"type": "8",
 		"image_reply":{ 
@@ -308,7 +308,7 @@
 		"avatar": "https://back-chat-eof5.onrender.com/images/user2.png", 
 		"created_at": "2023-11-19 07:13:20", 
 		"is_edited": false,
-		"image_path":["../../assets/images/cat-big.jpg","../../assets/images/cat-big.jpg", "../../assets/images/cat-big.jpg", "../../assets/images/cat-big.jpg", "../../assets/images/cat-big.jpg"],
+		"image_path":["https://back-chat-eof5.onrender.com/images/cat-big.jpg","https://back-chat-eof5.onrender.com/images/cat-big.jpg", "https://back-chat-eof5.onrender.com/images/cat-big.jpg", "https://back-chat-eof5.onrender.com/images/cat-big.jpg", "https://back-chat-eof5.onrender.com/images/cat-big.jpg"],
 		"text": "Here are signed sheets of your labor contract. Check it carefully and let me know if is it ok.",
 		"type": "9",
 		"image_forward":{  
@@ -326,7 +326,7 @@
 		"is_edited": true,
 		"is_sent": true,
 		"is_read": true,
-		"image_path":["../../assets/images/cat-big.jpg"],
+		"image_path":["https://back-chat-eof5.onrender.com/images/cat-big.jpg"],
 		"is_read_by_ids": ["participant_avatar_1", "participant_avatar_2", "participant_avatar_3"],
 		"text": "I got these photos form your potential candidate. It seems they are not in good quality. What do you think?",
 		"type": "10",
@@ -340,7 +340,7 @@
 		"is_edited": true,
 		"text": "Yes. You should ask her to send new photos in good quality. There are 3 days left till the job offer will be closed. Hurry up, please.",
 		"type": "11",
-		"image_path":["../../assets/images/cat-big.jpg"],
+		"image_path":["https://back-chat-eof5.onrender.com/images/cat-big.jpg"],
 		"image_set_reply":{ 
 			"author_name": "DigiBee work",
 			"replied_foto_count": "4"
@@ -355,8 +355,8 @@
 		"is_edited": true,
 		"is_sent": false,
 		"is_read": false,
-		"image_path":["../../assets/images/cat-big.jpg"],
-		"is_read_by_ids": ["../../assets/images/cat-big.jpg", "../../assets/images/cat-big.jpg", "../../assets/images/cat-big.jpg"],
+		"image_path":["https://back-chat-eof5.onrender.com/images/cat-big.jpg"],
+		"is_read_by_ids": ["https://back-chat-eof5.onrender.com/images/cat-big.jpg", "https://back-chat-eof5.onrender.com/images/cat-big.jpg", "https://back-chat-eof5.onrender.com/images/cat-big.jpg"],
 		"text": "Finally, I got another photos. Check again, please.",
 		"type": "12",
 		"image_set_forward":{ 
