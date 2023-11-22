@@ -310,7 +310,7 @@
 		"is_edited": false,
 		"image_path":["https://back-chat-eof5.onrender.com/images/cat-big.jpg","https://back-chat-eof5.onrender.com/images/cat-big.jpg", "https://back-chat-eof5.onrender.com/images/cat-big.jpg", "https://back-chat-eof5.onrender.com/images/cat-big.jpg", "https://back-chat-eof5.onrender.com/images/cat-big.jpg"],
 		"text": "Here are signed sheets of your labor contract. Check it carefully and let me know if is it ok.",
-		"type": "9",
+		"type": "12",
 		"image_forward":{  
 			"author_name": "Gremi personal sp. z o.o."
 		},
