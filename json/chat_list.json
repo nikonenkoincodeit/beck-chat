@@ -340,10 +340,10 @@
 		"is_edited": true,
 		"text": "Yes. You should ask her to send new photos in good quality. There are 3 days left till the job offer will be closed. Hurry up, please.",
 		"type": "11",
-		"image_path":["https://back-chat-eof5.onrender.com/images/cat-big.jpg"],
+		"image_path":["https://back-chat-eof5.onrender.com/images/cat-big.jpg","https://back-chat-eof5.onrender.com/images/cat-big.jpg"],
 		"image_set_reply":{ 
 			"author_name": "DigiBee work",
-			"replied_foto_count": "4"
+			"replied_foto_count": "2"
 		},
 		"layout_side": "0",
 		"author_role": "1" 
