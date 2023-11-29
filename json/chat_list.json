@@ -358,7 +358,7 @@
 		"image_path":["https://back-chat-eof5.onrender.com/images/cat-big.jpg"],
 		"is_read_by_ids": ["https://back-chat-eof5.onrender.com/images/cat-big.jpg", "https://back-chat-eof5.onrender.com/images/cat-big.jpg", "https://back-chat-eof5.onrender.com/images/cat-big.jpg"],
 		"text": "Finally, I got another photos. Check again, please.",
-		"type": "12",
+		"type": "9",
 		"image_set_forward":{ 
 			"author_name": "Zlata parasochka"
 		},
