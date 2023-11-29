@@ -281,7 +281,7 @@
 		"image_path":["https://back-chat-eof5.onrender.com/images/cat-big.jpg", "https://back-chat-eof5.onrender.com/images/cat-big.jpg"],
 		"is_read_by_ids": ["participant_avatar_1", "participant_avatar_2", "participant_avatar_3"],
 		"text": "Check my photo please...",
-		"type": "7",
+		"type": "10",
 		"layout_side": "1",
 		"author_role": "3"
 	},
