@@ -329,7 +329,7 @@
 		"image_path":["https://back-chat-eof5.onrender.com/images/cat-big.jpg"],
 		"is_read_by_ids": ["participant_avatar_1", "participant_avatar_2", "participant_avatar_3"],
 		"text": "I got these photos form your potential candidate. It seems they are not in good quality. What do you think?",
-		"type": "10",
+		"type": "7",
 		"layout_side": "1",
 		"author_role": "4"
 	},
