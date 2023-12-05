@@ -198,6 +198,22 @@
 			"layout_side": "0",
 			"author_role": "1"
 		},
+			{	"id": "message_26",
+			"user_id": "employer",
+			"avatar": "https://back-chat-eof5.onrender.com/images/user3.png", 
+			"created_at": "2023-12-17 14:35:45", 
+			"is_edited": false,
+			"text": "I like your offer. Deal!",
+			"type": "22",
+			"job_offer_reply":{  
+				"author_name": "Gremi personal sp. z o.o.",
+				"icon": "`path_to_photo`", 
+				"title": "job_1", 
+				"link": "site/job/job_uuid" 
+			},
+			"layout_side": "0",
+			"author_role": "1"
+		},
 		{	"id": "message_2",
 			"user_id": "candidate",
 			"avatar": "https://back-chat-eof5.onrender.com/images/user1.png", 
