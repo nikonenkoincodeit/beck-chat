@@ -431,6 +431,20 @@
 		},
 		"layout_side": "0",
 		"author_role": "5"
+	},
+	{	"id": "message_13",
+		"user_id": "recruiter",
+		"avatar": "https://back-chat-eof5.onrender.com/images/user1.png", 
+		"created_at": "2024-01-05 08:13:20", 
+		"is_edited": false,
+		"text": "Your candidate has been confirmed for the position. Check the route sheet for her with the required instructions. 123",
+		"type": "13",
+		"file_send":{ 
+			"filename": "Commercial offer2.pdf",
+			"filesize": "890.1 KB"
+		},
+		"layout_side": "1",
+		"author_role": "3"
 	}
 ],
 "cabinet-chat-message-show-room_4":[
