@@ -297,6 +297,19 @@
 		"layout_side": "0",
 		"author_role": "2"
 	},
+	{	"id": "message_9",
+		"user_id": "coworker",
+		"avatar": "https://back-chat-eof5.onrender.com/images/user1.png", 
+		"created_at": "2023-11-10 07:13:20", 
+		"is_edited": true,
+		"text": "I have finished to edit your Invitation. Here is some information about which documents you have to provide us",
+		"type": "6",
+		"audio_forward":{ 
+			"author_name": "Gremi personal sp. z o.o."
+		},
+		"layout_side": "1",
+		"author_role": "2"
+	},
 	{	"id": "message_6",
 		"user_id": "candidate",
 		"avatar": "https://back-chat-eof5.onrender.com/images/user1.png", 
