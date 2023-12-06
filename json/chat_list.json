@@ -332,6 +332,20 @@
 		},
 		"layout_side": "0",
 		"author_role": "2"
+	},
+	{	"id": "message_8",
+		"user_id": "coworker",
+		"avatar": "https://back-chat-eof5.onrender.com/images/user2.png", 
+		"created_at": "2023-11-19 07:13:20", 
+		"is_edited": false,
+		"image_path":["https://back-chat-eof5.onrender.com/images/cat-big.jpg","https://back-chat-eof5.onrender.com/images/cat-big.jpg", "https://back-chat-eof5.onrender.com/images/cat-big.jpg", "https://back-chat-eof5.onrender.com/images/cat-big.jpg", "https://back-chat-eof5.onrender.com/images/cat-big.jpg"],
+		"text": "Here are signed sheets of your labor contract. Check it carefully and let me know if is it ok.",
+		"type": "12",
+		"image_forward":{  
+			"author_name": "Gremi personal sp. z o.o."
+		},
+		"layout_side": "1",
+		"author_role": "3"
 	}
 ],
 "cabinet-chat-message-show-room_3":[
