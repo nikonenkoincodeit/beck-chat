@@ -461,8 +461,8 @@
 			"replied_filename": "Commercial offer.pdf",
 			"replied_text": "Розгляньте нашу пропозицію"
 		},
-		"layout_side": "0",
-		"author_role": "0"
+		"layout_side": "1",
+		"author_role": "3"
 		
 	},
 	{	"id": "message_14",
