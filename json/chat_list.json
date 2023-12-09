@@ -262,7 +262,7 @@
 			"is_edited": false,
 			"text": "Please listen to carefully 123456",
 			"type": "4",
-			"layout_side": "1",
+			"layout_side": "0",
 			"author_role": "3"
 		},
 		{	"id": "message_20",
