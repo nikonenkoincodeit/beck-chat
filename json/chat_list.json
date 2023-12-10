@@ -37,7 +37,7 @@
 "room_list": 
 	[
 		{	"uuid": "room_1",
-			"message_ids": ["message_1", "message_2", "message_3"], 
+			"message_ids": ["message_1", "message_21", "message_22", "message_26", "message_27", "message_2", "message_3", "message_20"], 
 			"contact_fields":{ 
 				"my_applications":{ 
 					"cover": "icon",
@@ -60,7 +60,7 @@
 			}
 		},
 		{	"uuid": "room_2",
-			"message_ids": ["message_4", "message_5", "message_6"], 
+			"message_ids": ["message_5", "message_6", "message_7", "message_8"], 
 			"contact_fields":{ 
 				"my_applications":{ 
 					"cover": "icon",
@@ -83,7 +83,7 @@
 			}
 		},
 		{	"uuid": "room_3",
-			"message_ids": ["message_7", "message_8", "message_9"], 
+			"message_ids": ["message_9", "message_10", "message_11", "message_12"], 
 			"contact_fields":{
 				"my_invitations_candidate":{ 
 					"cover": "icon",
@@ -105,7 +105,7 @@
 			}
 		},
 		{	"uuid": "room_4",
-			"message_ids": ["message_10", "message_11", "message_12", "message_13", "message_14"], 
+			"message_ids": ["message_12", "message_13", "message_14", "message_15", "message_16"], 
 			"contact_fields":{ 
 				"my_applications":{ 
 					"cover": "icon",
@@ -198,7 +198,7 @@
 			"layout_side": "0",
 			"author_role": "1"
 		},
-			{	"id": "message_26",
+		{	"id": "message_26",
 			"user_id": "employer",
 			"avatar": "https://back-chat-eof5.onrender.com/images/user3.png", 
 			"created_at": "2023-12-17 14:35:45", 
@@ -214,10 +214,10 @@
 			"layout_side": "0",
 			"author_role": "1"
 		},
-		{	"id": "message_2",
+		{	"id": "message_27",
 			"user_id": "candidate",
 			"avatar": "https://back-chat-eof5.onrender.com/images/user1.png", 
-			"created_at": "2023-12-17 14:35:22", 
+			"created_at": "2023-12-17 14:35:20", 
 			"is_edited": false,
 			"is_sent": true,
 			"is_read": true,
@@ -225,18 +225,19 @@
 			"text": "Ок. Якість фото влаштовує. Теперь чекаємо разом",
 			"type": "2",
 			"text_reply":{ 
-					"author_name": "Gremi personal sp. z o.o.",
-					"replied_text": "global.labels.chat_job_offer"
+				"replied_id": "message_1",
+				"author_name": "Gremi personal sp. z o.o.",
+				"replied_text": "global.labels.chat_job_offer"
 			},
 			"layout_side": "1",
 			"author_role": "3"
 		},
-		{	"id": "message_3",
+		{	"id": "message_2",
 			"user_id": "employer",
 			"avatar": "https://back-chat-eof5.onrender.com/images/user2.png", 
 			"created_at": "2023-12-18 10:13:20", 
 			"is_edited": false,
-			"text": "You`ve agreed.Let me know when your are ready to buy a ticket",
+			"text": "You`ve agreed. Let me know when your are ready to buy a ticket",
 			"type": "3",
 			"text_forward":{ 
 				"author_name": "Gremi personal sp. z o.o.",
@@ -245,7 +246,7 @@
 			"layout_side": "0",
 			"author_role": "1" 
 		},
-		{	"id": "message_4",
+		{	"id": "message_3",
 			"user_id": "employer",
 			"avatar": "https://back-chat-eof5.onrender.com/images/user2.png", 
 			"created_at": "2023-12-18 10:13:20", 
@@ -255,27 +256,18 @@
 			"layout_side": "0",
 			"author_role": "1"
 		},
-		{	"id": "message_5",
-			"user_id": "candidate",
-			"avatar": "https://back-chat-eof5.onrender.com/images/user1.png", 
-			"created_at": "2023-12-18 10:13:20", 
-			"is_edited": false,
-			"text": "Please listen to carefully 123456",
-			"type": "4",
-			"layout_side": "0",
-			"author_role": "3"
-		},
 		{	"id": "message_20",
 			"user_id": "candidate",
-			"avatar": "https://back-chat-eof5.onrender.com/images/user3.png",
+			"avatar": "https://back-chat-eof5.onrender.com/images/user1.png",
 			"created_at": "2023-12-19 07:13:20", 
 			"is_edited": true,
-			"is_sent": true,
-			"is_read": false,
+			"is_sent": false,
+			"is_read": true,
 			"is_read_by_ids": ["participant_avatar_1", "participant_avatar_2", "participant_avatar_3"],
 			"text": "I have listened till the end of your speech. I`ll be back later.Wait some time please",
 			"type": "5",
 			"audio_reply":{ 
+				"replied_id": "message_3",
 				"author_name": "Gremi personal sp. z o.o.",
 				"replied_text": "Please listen to carefully"
 			},
@@ -297,30 +289,17 @@
 		"layout_side": "0",
 		"author_role": "2"
 	},
-	{	"id": "message_9",
-		"user_id": "coworker",
-		"avatar": "https://back-chat-eof5.onrender.com/images/user1.png", 
-		"created_at": "2023-11-10 07:13:20", 
-		"is_edited": true,
-		"text": "I have finished to edit your Invitation. Here is some information about which documents you have to provide us",
-		"type": "6",
-		"audio_forward":{ 
-			"author_name": "Gremi personal sp. z o.o."
-		},
-		"layout_side": "1",
-		"author_role": "2"
-	},
 	{	"id": "message_6",
 		"user_id": "candidate",
-		"avatar": "https://back-chat-eof5.onrender.com/images/user1.png", 
+		"avatar": "https://back-chat-eof5.onrender.com/images/user1.png",
 		"created_at": "2023-11-10 07:15:20", 
 		"is_edited": true,
 		"is_sent": true,
 		"is_read": false,
-		"image_path":["https://back-chat-eof5.onrender.com/images/cat-big.jpg", "https://back-chat-eof5.onrender.com/images/cat-big.jpg"],
 		"is_read_by_ids": ["participant_avatar_1", "participant_avatar_2", "participant_avatar_3"],
+		"image_path":["https://back-chat-eof5.onrender.com/images/cat-big.jpg"],
 		"text": "Check my photo please...",
-		"type": "10",
+		"type": "7",
 		"layout_side": "1",
 		"author_role": "3"
 	},
@@ -331,11 +310,12 @@
 		"is_edited": false,
 		"is_sent": true,
 		"is_read": true,
-		"image_path":["https://back-chat-eof5.onrender.com/images/cat-big.jpg"],
 		"is_read_by_ids": ["https://back-chat-eof5.onrender.com/images/cat-big.jpg", "https://back-chat-eof5.onrender.com/images/cat-big.jpg", "https://back-chat-eof5.onrender.com/images/cat-big.jpg"],
+		"image_path":["https://back-chat-eof5.onrender.com/images/cat-big.jpg"],
 		"text": "Here are some new pages. Check and let me know if is it ok",
 		"type": "8",
 		"image_reply":{ 
+			"replied_id": "message_6",
 			"author_name": "Zlata parasochka",
 			"replied_filename": "PANAS_NAzariy_bio.jpg"
 		},
@@ -344,45 +324,31 @@
 	},
 	{	"id": "message_8",
 		"user_id": "coworker",
-		"avatar": "https://back-chat-eof5.onrender.com/images/user2.png", 
-		"created_at": "2023-11-19 07:13:20", 
-		"is_edited": false,
-		"image_path":["https://back-chat-eof5.onrender.com/images/cat-big.jpg","https://back-chat-eof5.onrender.com/images/cat-big.jpg", "https://back-chat-eof5.onrender.com/images/cat-big.jpg", "https://back-chat-eof5.onrender.com/images/cat-big.jpg", "https://back-chat-eof5.onrender.com/images/cat-big.jpg"],
+		"avatar": "https://back-chat-eof5.onrender.com/images/user1.png", 
+		"created_at": "2023-11-19 07:13:20",  
+		"is_edited": true,
+		"image_path":["https://back-chat-eof5.onrender.com/images/cat-big.jpg"],
 		"text": "Here are signed sheets of your labor contract. Check it carefully and let me know if is it ok.",
-		"type": "12",
-		"image_forward":{  
+		"type": "9",
+		"image_forward":{ 
 			"author_name": "Gremi personal sp. z o.o."
 		},
 		"layout_side": "0",
 		"author_role": "2"
-	},
-	{	"id": "message_50",
-		"user_id": "coworker",
-		"avatar": "https://back-chat-eof5.onrender.com/images/user2.png", 
-		"created_at": "2023-11-19 07:13:20", 
-		"is_edited": false,
-		"image_path":["https://back-chat-eof5.onrender.com/images/cat-big.jpg","https://back-chat-eof5.onrender.com/images/cat-big.jpg", "https://back-chat-eof5.onrender.com/images/cat-big.jpg", "https://back-chat-eof5.onrender.com/images/cat-big.jpg", "https://back-chat-eof5.onrender.com/images/cat-big.jpg"],
-		"text": "Here are signed sheets of your labor contract. Check it carefully and let me know if is it ok.",
-		"type": "12",
-		"image_forward":{  
-			"author_name": "Gremi personal sp. z o.o."
-		},
-		"layout_side": "1",
-		"author_role": "3"
 	}
 ],
 "cabinet-chat-message-show-room_3":[
 	{	"id": "message_9",
 		"user_id": "agent",
 		"avatar": "https://back-chat-eof5.onrender.com/images/user2.png", 
-		"created_at": "2024-01-05 07:13:20", 
+		"created_at": "2024-01-05 07:13:20",
 		"is_edited": true,
 		"is_sent": true,
 		"is_read": true,
-		"image_path":["https://back-chat-eof5.onrender.com/images/cat-big.jpg"],
 		"is_read_by_ids": ["participant_avatar_1", "participant_avatar_2", "participant_avatar_3"],
+		"image_path":["https://back-chat-eof5.onrender.com/images/cat-big.jpg", "https://back-chat-eof5.onrender.com/images/cat-big.jpg"],
 		"text": "I got these photos form your potential candidate. It seems they are not in good quality. What do you think?",
-		"type": "7",
+		"type": "10",
 		"layout_side": "1",
 		"author_role": "4"
 	},
@@ -391,10 +357,11 @@
 		"avatar": "https://back-chat-eof5.onrender.com/images/user1.png", 
 		"created_at": "2024-01-05 07:16:20", 
 		"is_edited": true,
+		"image_path":["https://back-chat-eof5.onrender.com/images/cat-big.jpg","https://back-chat-eof5.onrender.com/images/cat-big.jpg"],
 		"text": "Yes. You should ask her to send new photos in good quality. There are 3 days left till the job offer will be closed. Hurry up, please.",
 		"type": "11",
-		"image_path":["https://back-chat-eof5.onrender.com/images/cat-big.jpg","https://back-chat-eof5.onrender.com/images/cat-big.jpg"],
 		"image_set_reply":{ 
+			"replied_id": "message_9",
 			"author_name": "DigiBee work",
 			"replied_foto_count": "2"
 		},
@@ -408,10 +375,10 @@
 		"is_edited": true,
 		"is_sent": false,
 		"is_read": false,
-		"image_path":["https://back-chat-eof5.onrender.com/images/cat-big.jpg"],
 		"is_read_by_ids": ["https://back-chat-eof5.onrender.com/images/cat-big.jpg", "https://back-chat-eof5.onrender.com/images/cat-big.jpg", "https://back-chat-eof5.onrender.com/images/cat-big.jpg"],
+		"image_path":["https://back-chat-eof5.onrender.com/images/cat-big.jpg"],
 		"text": "Finally, I got another photos. Check again, please.",
-		"type": "9",
+		"type": "12",
 		"image_set_forward":{ 
 			"author_name": "Zlata parasochka"
 		},
@@ -431,23 +398,23 @@
 		},
 		"layout_side": "0",
 		"author_role": "5"
-	},
-	{	"id": "message_13",
-		"user_id": "recruiter",
-		"avatar": "https://back-chat-eof5.onrender.com/images/user1.png", 
-		"created_at": "2024-01-05 08:13:20", 
-		"is_edited": false,
-		"text": "Your candidate has been confirmed for the position. Check the route sheet for her with the required instructions. 123",
-		"type": "13",
-		"file_send":{ 
-			"filename": "Commercial offer2.pdf",
-			"filesize": "890.1 KB"
-		},
-		"layout_side": "1",
-		"author_role": "3"
 	}
 ],
 "cabinet-chat-message-show-room_4":[
+	{	"id": "message_12",
+		"user_id": "recruiter",
+		"avatar": "https://back-chat-eof5.onrender.com/images/user3.png", 
+		"created_at": "2024-01-05 08:13:20", 
+		"is_edited": false,
+		"text": "Your candidate has been confirmed for the position. Check the route sheet for her with the required instructions.",
+		"type": "13",
+		"file_send":{ 
+			"filename": "Commercial offer.pdf",
+			"filesize": "890.1 KB"
+		},
+		"layout_side": "0",
+		"author_role": "5"
+	},
 	{	"id": "message_13",
 		"user_id": "admin",
 		"avatar": "https://back-chat-eof5.onrender.com/images/user1.png", 
@@ -455,14 +422,14 @@
 		"is_edited": true,
 		"text": "Ваша пропозиція була розглянута. Все гаразд. Вас звільнено.",
 		"type": "14",
-		
 		"file_reply":{ 
+			"replied_id": "message_12",
 			"author_name": "Gremi personal sp. z o.o.",
 			"replied_filename": "Commercial offer.pdf",
 			"replied_text": "Розгляньте нашу пропозицію"
 		},
-		"layout_side": "1",
-		"author_role": "3"
+		"layout_side": "0",
+		"author_role": "0"
 		
 	},
 	{	"id": "message_14",
@@ -475,7 +442,6 @@
 		"is_read_by_ids": ["participant_avatar_1", "participant_avatar_2", "participant_avatar_3"],
 		"text": "Як так!??? Що ви собі дозволяєте???Ось моя заява до поліції....Чекайте та тремтіть, шахраї *бані...",
 		"type": "15",
-		
 		"file_forward":{ 
 			"author_name": "Михаийло (юрист)",
 			"forwarded_filename": "Заява про злочин №15 від 09.02.2024.pdf",
@@ -545,8 +511,9 @@
 			"text": "It`s perfect. Thank you for the offer. I will let you know soon. Stay tuned.",
 			"type": "2",
 			"text_reply":{ 
-					"author_name": "Gremi personal sp. z o.o.",
-					"replied_text": "Hi, you have registered by our company referral link and are now in our hive. Please check our job offer and join our company to get a high salary..."
+				"replied_id": "message_24",	
+				"author_name": "Gremi personal sp. z o.o.",
+				"replied_text": "Hi, you have registered by our company referral link and are now in our hive. Please check our job offer and join our company to get a high salary..."
 			},
 			"layout_side": "1",
 			"author_role": "3"
