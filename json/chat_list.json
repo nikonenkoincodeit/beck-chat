@@ -206,6 +206,7 @@
 			"text": "I like your offer. Deal!",
 			"type": "22",
 			"job_offer_reply":{  
+				"replied_id": "message_21",
 				"author_name": "Gremi personal sp. z o.o.",
 				"icon": "`path_to_photo`", 
 				"title": "job_1", 
